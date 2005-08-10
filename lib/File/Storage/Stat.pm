@@ -6,7 +6,7 @@ use Carp;
 require Exporter;
 
 our @ISA = qw(Exporter);
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub new {
     my $class = shift;
@@ -100,7 +100,7 @@ __END__
 
 =head1 NAME
 
-File::Storage::Stat - Perl extension for blah blah blah
+File::Storage::Stat - Storage manager of minimum size
 
 =head1 SYNOPSIS
 
